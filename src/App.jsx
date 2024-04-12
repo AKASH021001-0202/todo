@@ -1,17 +1,12 @@
-import { useState } from 'react'
 import './App.css'
-import Inputbox from './component/Inputbox';
+import TodoApp from './component/TodoApp';
 
 function App() {
-
-
-
   return (
-    <>
-      <Inputbox />
-          
-    </>
-  )
+    <div className="App">
+      <TodoApp />
+    </div>
+  );
 }
 
-export default App
+export default App;
